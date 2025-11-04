@@ -14,4 +14,9 @@
 
 # [START gae_java11_helloworld_yaml]
 runtime: java11
+env: standard
+instance_class: F1
+
+entrypoint: java -jar target/springboot-helloworld-j11-0.0.1-SNAPSHOT.jar
 # [END gae_java11_helloworld_yaml]
+
