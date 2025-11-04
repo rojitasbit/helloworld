@@ -17,7 +17,7 @@
   <groupId>com.example.appengine</groupId>
   <artifactId>springboot-helloworld-j11</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
+  <packaging>jar</packaging>
   <!--
   The parent pom defines common style checks and testing strategies for our samples.
   Removing or replacing it should not affect the execution of the samples in anyway.
@@ -111,3 +111,4 @@
   </build>
 
 </project>
+
